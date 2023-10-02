@@ -1,0 +1,70 @@
+{
+  "carData" : [
+  {
+      "id": 1, 
+      "carName": "1969 Pontiac GTO",
+      "image": "https://static1.topspeedimages.com/wordpress/wp-content/uploads/2023/07/collage-maker-08-jul-2023-06-57-pm-1700.jpg",
+      "description": 
+      "Before John DeLorean went on to make the DMC-12, which would become famous with the Back to the Future movies, he devised one of the most popular packages for the second-generation Pontiac GTO. In 1969, 'The Judge' was introduced. The package was inspired by a comedy routine, 'Here Come de Judge', which was apparently, a favorite of John DeLorean. The package stripped all features to make it as lightweight as possible.",
+      "engine": "6.6-liter V-8",
+      "transmission": "3-speed automatic/ 4-speed manual",
+      "drivetrain": "RWD", 
+      "power": "366hp",
+      "torque": "445 lb-ft",
+      "0-60": "4.9 seconds",
+      "1/4": "13.6 @103 MPH"
+  },
+  {
+    "id": 2, 
+    "carName": "1967 Shelby Cobra 427 Super Snake",
+    "image": "https://static1.topspeedimages.com/wordpress/wp-content/uploads/2023/03/1967-shelby-427-cobra-mecum-1.jpg",
+    "description": "Despite its streamlined, sports-car looks, the 1967 Shelby Cobra 427 Super Snake had the pulse of American muscle coursing through its veins. Judging by the limited number of cars built for this particular model, it shouldn't be surprising that the most powerful Shelby to ever be built still carries the title of one of the rarest American muscle cars in history.",
+    "engine": "7.0-liter twin-supercharged V-8",
+    "transmission": "4-speed manual",
+    "drivetrain": "RWD", 
+    "power": "800hp",
+    "torque": "n/a",
+    "0-60": "3.6 seconds",
+    "1/4": "12.3 @122 MPH"
+  },
+  {
+    "id": 3,  
+    "carName": "1970 Chevrolet Chevelle SS",
+    "image": "https://static1.topspeedimages.com/wordpress/wp-content/uploads/2023/02/01-1606151482644-2x.jpg",
+    "description": "Many people today are quick to label the Camaro as Chevrolet's muscle car. While that, to an extent, is accurate, not a lot of people know that before the Camaro became Chevy's go-to-muscle car, that title belonged to the Chevrolet Chevelle SS. After being introduced in 1964 to signal Chevrolet's entry into the world of muscle cars, the Chevelle trudged along for several years, registering enough to make a name for itself but not enough to make its rivals worry.",
+    "engine": "7.4-liter V-8",
+    "transmission": "3-speed automatic/4-speed manual",
+    "drivetrain": "RWD", 
+    "power": "450hp",
+    "torque": "500 lb-ft",
+    "0-60": "4.8 seconds",
+    "1/4": "13.4 @105 MPH"
+  },
+  {
+    "id": 4, 
+    "carName": "1969 Ford Mustang BOSS 429",
+    "image": "https://static1.topspeedimages.com/wordpress/wp-content/uploads/2023/01/1969-ford-mustang-boss-429-6.jpg",
+    "description":"Like other American carmakers in the 1960s and 1970s, Ford followed the philosophy of 'Win on Sunday, sell on Monday'. Motorsports were the best way to advertise a performance model, and the 429 cubic-inch Ford V-8 was specifically made for NASCAR. While the racing version of the engine was put in the Ford Torino Talladega, the 429's most notable use in road application was in the Ford Mustang BOSS 429. The engine featured hemispherical heads earning it the nickname 'Ford's Hemi'.",
+    "engine": "7.0-liter V-8",
+    "transmission": "3-speed automatic/4-speed manual",
+    "drivetrain": "RWD", 
+    "power": "375hp",
+    "torque": "490 lb-ft",
+    "0-60": "5.3 seconds",
+    "1/4": "13.7 @122 MPH"
+  },
+  {
+    "id": 5, 
+    "carName": "1971 Plymouth Hemi 'Cuda Convertible",
+    "image": "https://static1.topspeedimages.com/wordpress/wp-content/uploads/2023/01/1969-ford-mustang-boss-429-6.jpg",
+    "description":"One of the rarest and most important muscle cars of the '70s is the 1971 Plymouth Hemi'Cuda Convertible, a car that, to this day, remains one of the most sought-after muscle cars in history. The HEMI 'Cuda, a direct descendant of the Plymouth Barracuda, became a rare gem. Not only because it came with a 425 cubic inch V-8 engine that produced 425 horsepower but because it served as Plymouth's answer to the established names of that time, particularly the Camaro and the Mustang.",
+    "engine": "7.0-liter V-8",
+    "transmission": "3-speed automatic/4-speed manual",
+    "drivetrain": "RWD", 
+    "power": "425hp",
+    "torque": "490 lb-ft",
+    "0-60": "5.4 seconds",
+    "1/4": "13.9 @103 MPH"
+  }
+]
+}
