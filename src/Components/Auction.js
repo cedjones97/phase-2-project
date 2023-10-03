@@ -1,6 +1,8 @@
 import CarDetails from './CarDetails'
 
-const Auction = () => {
+const Auction = ({ cars }) => {
+
+  const car = cars.map()
   return (
     <div>
         <br />

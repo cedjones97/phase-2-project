@@ -21,7 +21,7 @@ export const App = () => {
         <Header />
         <Switch>
         <Route path='/auction'>
-            <Auction car={car}/>
+            <Auction cars={car}/>
         </Route>
         <Route path='/auctionyourcar'>
             <AuctionYourCar />
