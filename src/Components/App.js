@@ -14,7 +14,7 @@ export const App = () => {
         fetch('http://localhost:3000/carData')
         .then(res => res.json())
         .then(setCar)
-    })
+    }, [])
 
   return (
     <div>
