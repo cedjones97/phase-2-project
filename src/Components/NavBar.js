@@ -8,6 +8,7 @@ const linkStyles = {
   background: "blue",
   textDecoration: "none",
   color: "white",
+  
 };
 
 const NavBar = () => {

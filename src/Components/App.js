@@ -1,11 +1,15 @@
 import Header from './Header'
 import { Route, Switch } from 'react-router-dom'
+import React, { useState } from 'react'
 import Home from './Home'
 import Auction from './Auction'
 import AuctionYourCar from './AuctionYourCar'
 
 
 export const App = () => {
+
+    const [car, setCar] = useState('')
+
   return (
     <div>
         <Header />
