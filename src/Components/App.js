@@ -8,7 +8,7 @@ import AuctionYourCar from './AuctionYourCar'
 
 export const App = () => {
 
-    const [car, setCar] = useState('')
+    const [car, setCar] = useState([])
 
     useEffect(() => {
         fetch('http://localhost:3000/carData')

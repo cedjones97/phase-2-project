@@ -11,8 +11,8 @@
       "drivetrain": "RWD", 
       "power": "366hp",
       "torque": "445 lb-ft",
-      "0-60": "4.9 seconds",
-      "1/4": "13.6 @103 MPH"
+      "mph": "4.9 seconds",
+      "quarterMile": "13.6 @103 MPH"
   },
   {
     "id": 2, 
