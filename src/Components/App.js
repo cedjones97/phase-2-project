@@ -1,6 +1,6 @@
 import Header from './Header'
 import { Route, Switch } from 'react-router-dom'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Home from './Home'
 import Auction from './Auction'
 import AuctionYourCar from './AuctionYourCar'
@@ -9,6 +9,12 @@ import AuctionYourCar from './AuctionYourCar'
 export const App = () => {
 
     const [car, setCar] = useState('')
+
+    useEffect(() => {
+        fetch('http//localhost:300/carData')
+        .then(res => res.json())
+        .then(data => console.log(data))
+    })
 
   return (
     <div>
