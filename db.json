@@ -24,8 +24,8 @@
     "drivetrain": "RWD", 
     "power": "800hp",
     "torque": "n/a",
-    "0-60": "3.6 seconds",
-    "1/4": "12.3 @122 MPH"
+    "mph": "3.6 seconds",
+    "quarterMile": "12.3 @122 MPH"
   },
   {
     "id": 3,  
@@ -37,8 +37,8 @@
     "drivetrain": "RWD", 
     "power": "450hp",
     "torque": "500 lb-ft",
-    "0-60": "4.8 seconds",
-    "1/4": "13.4 @105 MPH"
+    "mph": "4.8 seconds",
+    "quarterMile": "13.4 @105 MPH"
   },
   {
     "id": 4, 
@@ -50,8 +50,8 @@
     "drivetrain": "RWD", 
     "power": "375hp",
     "torque": "490 lb-ft",
-    "0-60": "5.3 seconds",
-    "1/4": "13.7 @122 MPH"
+    "mph": "5.3 seconds",
+    "quarterMile": "13.7 @122 MPH"
   },
   {
     "id": 5, 
@@ -63,8 +63,8 @@
     "drivetrain": "RWD", 
     "power": "425hp",
     "torque": "490 lb-ft",
-    "0-60": "5.4 seconds",
-    "1/4": "13.9 @103 MPH"
+    "mph": "5.4 seconds",
+    "quarterMile": "13.9 @103 MPH"
   }
 ],
 
