@@ -1,5 +1,5 @@
 import Car from '../Car.css'
-
+import React, { useState } from 'react'
 const CarDetails  = ({
     carName,
     image,
@@ -13,6 +13,8 @@ const CarDetails  = ({
     quarter
 }) => {
 
+    const [ money, setMoney ] = useState(5000)
+
   return (
     <div className='card'>
       <img src={image} alt='muscle-car'/>
@@ -21,10 +23,11 @@ const CarDetails  = ({
       <p id='engine'>Engine Type: {engine}</p>
       <p id='trans'>Transmission Type: {trans}</p>
       <p id='drivetrain'>Drivetrain Type: {drivetrain}</p>
-      <p id='power'> Power: {power}</p>
+      <p id='power'>Power: {power}</p>
       <p id='torque'>Torque: {torque}</p>
       <p id='speed'>0-60: {speed}</p>
       <p id='quarter'>1/4 Mile Split: {quarter}</p>
+      <button onClick={handleBid}>Bid</button>
     </div>
   )
 }
