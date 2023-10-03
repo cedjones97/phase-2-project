@@ -1,9 +1,33 @@
+import React, { NavLink } from 'react-router-dom'
 
+const linkStyles = {
+  display: "inline-block",
+  width: "150px",
+  padding: "12px",
+  margin: "12px 12px 12px",
+  background: "blue",
+  textDecoration: "none",
+  color: "white",
+};
 
 const NavBar = () => {
   return (
     <div>
-        <h1>This will load my NavBar content in my header</h1>
+        <NavLink 
+        to='/' 
+        exact 
+        style={linkStyles}
+        >Home</NavLink>
+        <NavLink 
+        to='/auction' 
+        exact 
+        style={linkStyles}
+        >Auction</NavLink>
+        <NavLink 
+        to='/auctionyourcar' 
+        exact 
+        style={linkStyles}
+        >Auction Your Car</NavLink>
     </div>
   )
 }
