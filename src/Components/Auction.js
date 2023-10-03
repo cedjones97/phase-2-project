@@ -20,7 +20,7 @@ const Auction = ({ cars }) => {
   return (
     <div>
         <br />
-        <p>This will load my Auction content</p>
+        <h1><em>WELCOME TO THE AUCTION!</em></h1>
         {car}
     </div>
   )
