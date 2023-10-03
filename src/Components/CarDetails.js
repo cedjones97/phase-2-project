@@ -1,4 +1,4 @@
-
+import Car from '../Car.css'
 
 const CarDetails  = ({
     carName,
@@ -15,7 +15,7 @@ const CarDetails  = ({
 
   return (
     <div className='card'>
-      <img src={image} alt='muscle-car'/>
+      
       <h1>{carName}</h1>
       <p>{description}</p>
       <p>{engine}</p>
