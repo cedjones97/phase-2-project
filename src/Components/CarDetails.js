@@ -22,7 +22,7 @@ const CarDetails  = ({
     }
     
   return (
-    <div className='card'>
+    <div className='card' style={{}}>
       <img src={image} alt='muscle-car'/>
       <h1>{carName}</h1>
       <p id='description'>{description}</p>
