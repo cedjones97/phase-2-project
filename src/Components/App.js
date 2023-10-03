@@ -13,7 +13,7 @@ export const App = () => {
     useEffect(() => {
         fetch('http://localhost:3000/carData')
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(setCar)
     })
 
   return (
