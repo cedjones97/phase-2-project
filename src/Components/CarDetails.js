@@ -17,14 +17,14 @@ const CarDetails  = ({
     <div className='card'>
       <img src={image} alt='muscle-car'/>
       <h1>{carName}</h1>
-      <p>{description}</p>
-      <p>Engine Type: {engine}</p>
-      <p>Transmission Type: {trans}</p>
-      <p>Drivetrain Type: {drivetrain}</p>
-      <p> Power: {power}</p>
-      <p>Torque: {torque}</p>
-      <p>0-60: {speed}</p>
-      <p>1/4 Mile Split: {quarter}</p>
+      <p id='description'>{description}</p>
+      <p id='engine'>Engine Type: {engine}</p>
+      <p id='trans'>Transmission Type: {trans}</p>
+      <p id='drivetrain'>Drivetrain Type: {drivetrain}</p>
+      <p id='power'> Power: {power}</p>
+      <p id='torque'>Torque: {torque}</p>
+      <p id='speed'>0-60: {speed}</p>
+      <p id='quarter'>1/4 Mile Split: {quarter}</p>
     </div>
   )
 }
