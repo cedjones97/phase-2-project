@@ -11,11 +11,7 @@ const CarForm = ({ count, handleForwardCount, handleBackwardCount }) => {
     //     handleBackwardCount(count)
     // }
 
-    const handleSubmit = () => {
-        fetch('http://localhost300/carData', {
-            method: 'POST',
-        })
-    }
+  
 
   return (
     <div className='form-box'>

@@ -11,7 +11,7 @@ export const App = () => {
     const [car, setCar] = useState('')
 
     useEffect(() => {
-        fetch('http//localhost:300/carData')
+        fetch('http://localhost:3000/carData')
         .then(res => res.json())
         .then(data => console.log(data))
     })
@@ -29,7 +29,7 @@ export const App = () => {
         <Route exact path='/'>
             <Home />
         </Route>
-        
+
         </Switch>
     </div>
   )
