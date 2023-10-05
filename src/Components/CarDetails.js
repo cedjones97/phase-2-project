@@ -1,5 +1,6 @@
 import '../Car.css'
 import React, { useState } from 'react'
+import Timer from './Timer'
 
 
 const CarDetails  = ({
@@ -16,10 +17,14 @@ const CarDetails  = ({
 }) => {
 
     const [ money, setMoney ] = useState(5000)
+   
 
     const handleBid = () => {
       setMoney(prev => prev + 5000)
     }
+
+    
+
     
   return (
     <div className='card'>
@@ -40,7 +45,7 @@ const CarDetails  = ({
       <button onClick={handleBid}>Bid</button>
       <ul>
         <p className='bid-amount'><em>Current Bid Amount:</em> ${money}</p>
-        <p className='timer'>Timer</p>
+        <Timer className='timer' />
       </ul>
     </div>
   )

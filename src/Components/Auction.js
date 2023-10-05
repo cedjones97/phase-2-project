@@ -1,4 +1,5 @@
 import CarDetails from './CarDetails'
+import '../Auction.css'
 
 const Auction = ({ cars }) => {
 
@@ -20,7 +21,9 @@ const Auction = ({ cars }) => {
   return (
     <div>
         <br />
-        <h1><em>WELCOME TO THE AUCTION!</em></h1>
+        <ul>
+          <h1><em>WELCOME TO THE AUCTION!</em></h1>
+        </ul>
         {car}
     </div>
   )

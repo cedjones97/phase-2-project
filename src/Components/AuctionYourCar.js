@@ -15,7 +15,6 @@ const AuctionYourCar = () => {
 
   return (
     <div>
-      
       <CarForm count={count} handleForwardCount={handleForwardCount} handleBackwardCount={handleBackwardCount}/>
     </div>
   )
