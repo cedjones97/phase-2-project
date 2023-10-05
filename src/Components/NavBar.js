@@ -13,7 +13,7 @@ const NavBar = () => {
           <NavLink 
           to='/' 
           exact 
-          className="nav-Link"
+          className="a"
           >Home</NavLink>
         </li>
         <li>

@@ -38,7 +38,10 @@ const CarDetails  = ({
         </details>
       </summary>
       <button onClick={handleBid}>Bid</button>
-      <p><em>Current Bid Amount:</em> ${money}</p>
+      <ul>
+        <p className='bid-amount'><em>Current Bid Amount:</em> ${money}</p>
+        <p className='timer'>Timer</p>
+      </ul>
     </div>
   )
 }
