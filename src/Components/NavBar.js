@@ -6,6 +6,8 @@ import '../Nav.css'
 const NavBar = () => {
   return (
     <nav >
+      <label className='logo'>Auction
+      </label>
       <ul>
         <li>
           <NavLink 
