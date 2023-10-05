@@ -1,5 +1,5 @@
 import React, { NavLink } from 'react-router-dom'
-import Nav from '../Nav.css'
+import '../Nav.css'
 
 
 
@@ -9,6 +9,7 @@ const NavBar = () => {
         <NavLink 
         to='/' 
         exact 
+        className="nav-Link"
         >Home</NavLink>
         <NavLink 
         to='/auction' 

@@ -1,4 +1,4 @@
-import Car from '../Car.css'
+import '../Car.css'
 import React, { useState } from 'react'
 
 
@@ -22,7 +22,7 @@ const CarDetails  = ({
     }
     
   return (
-    <div className='card' style={{}}>
+    <div className='card'>
       <img src={image} alt='muscle-car'/>
       <h1>{carName}</h1>
       <p id='description'>{description}</p>
