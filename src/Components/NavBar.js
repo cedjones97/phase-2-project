@@ -5,21 +5,31 @@ import '../Nav.css'
 
 const NavBar = () => {
   return (
-    <div>
-        <NavLink 
-        to='/' 
-        exact 
-        className="nav-Link"
-        >Home</NavLink>
-        <NavLink 
-        to='/auction' 
-        exact 
-        >Auction</NavLink>
-        <NavLink 
-        to='/auctionyourcar' 
-        exact 
-        >Auction Your Car</NavLink>
-    </div>
+    <nav >
+      <ul>
+        <li>
+          <NavLink 
+          to='/' 
+          exact 
+          className="nav-Link"
+          >Home</NavLink>
+        </li>
+        <li>
+          <NavLink 
+          to='/auction' 
+          exact 
+          className="nav-Link"
+          >Auction</NavLink>
+        </li> 
+        <li> 
+          <NavLink 
+          to='/auctionyourcar' 
+          exact 
+          className="nav-Link"
+          >Auction Your Car</NavLink>
+        </li> 
+      </ul> 
+    </nav>
   )
 }
 

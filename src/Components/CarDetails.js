@@ -26,13 +26,17 @@ const CarDetails  = ({
       <img src={image} alt='muscle-car'/>
       <h1>{carName}</h1>
       <p id='description'>{description}</p>
-      <p id='engine'>Engine Type: {engine}</p>
-      <p id='trans'>Transmission Type: {trans}</p>
-      <p id='drivetrain'>Drivetrain Type: {drivetrain}</p>
-      <p id='power'>Power: {power}</p>
-      <p id='torque'>Torque: {torque}</p>
-      <p id='speed'>0-60: {speed}</p>
-      <p id='quarter'>1/4 Mile Split: {quarter}</p>
+      <summary>
+        <details>
+        <p id='engine'><strong>Engine Type:</strong> {engine}</p>
+        <p id='trans'><strong>Transmission Type:</strong> {trans}</p>
+        <p id='drivetrain'><strong>Drivetrain Type:</strong> {drivetrain}</p>
+        <p id='power'><strong>Power:</strong> {power}</p>
+        <p id='torque'><strong>Torque:</strong> {torque}</p>
+        <p id='speed'><strong>0-60:</strong> {speed}</p>
+        <p id='quarter'><strong>1/4 Mile Split:</strong> {quarter}</p>
+        </details>
+      </summary>
       <button onClick={handleBid}>Bid</button>
       <p>Current Bid Amount: ${money}</p>
     </div>
