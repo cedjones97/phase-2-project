@@ -1,7 +1,7 @@
 import CarForm from "./CarForm";
 import React, { useState } from "react"
 
-const AuctionYourCar = () => {
+const AuctionYourCar = ({ handlePost }) => {
 
   const [count, setCount] = useState(1)
 
@@ -15,7 +15,7 @@ const AuctionYourCar = () => {
 
   return (
     <div>
-      <CarForm count={count} handleForwardCount={handleForwardCount} handleBackwardCount={handleBackwardCount}/>
+      <CarForm count={count} handlePost={handlePost} />
     </div>
   )
 }

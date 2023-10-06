@@ -11,13 +11,31 @@ const CarForm = ({ count, handleForwardCount, handleBackwardCount }) => {
     //     handleBackwardCount(count)
     // }
 
+      const handleSubmit = (e) => {
+        e.preventDefault();
+
+        const itemData = {
+          engine: '',
+          transmission: '',
+          drivetrain: '',
+          power: '',
+          torque: '',
+          mph: '',
+          quarterMile: '',
+        }
+
+        fetch('http://localhost:3000/carData', {
+          method: 'POST',
+        })
+
+      }
   
 
   return (
     <div className='form-box'>
         <h3><em><strong>Submit This Form To Add Your Car To The Auction!</strong></em></h3>
         <br />
-        <form>
+        <form >
             <div className='field1'>
             <input placeholder='vehicle name..'/>
             <input placeholder='vehicle image..'/>
