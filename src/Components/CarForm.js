@@ -1,9 +1,11 @@
 import Form from '../Form.css'
 import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 
 
 const CarForm = ({ count, handleForwardCount, handleBackwardCount, handlePost }) => {
 
+const history = useHistory();
 
   const [carName, setCarName] = useState('')
   const [image, setImage] = useState('')
@@ -88,7 +90,9 @@ const CarForm = ({ count, handleForwardCount, handleBackwardCount, handlePost })
       })
 
       .then(res => res.json())
-      .then(newCar => handlePost(newCar))
+      .then(newCar => handlePost(newCar));
+      history.push("/auction")
+
 
     }
   
