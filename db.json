@@ -66,23 +66,17 @@
       "quarterMile": "13.9 @103 MPH"
     },
     {
-      "transmission": "",
-      "drivetrain": "",
-      "power": "",
-      "torque": "",
-      "mph": "",
-      "quarterMile": "",
-      "id": 6
-    },
-    {
+      "carName": "Dodge Charger",
+      "image": "asds",
+      "description": "fast like light",
       "engine": "srt",
-      "transmission": "",
-      "drivetrain": "",
-      "power": "",
-      "torque": "",
-      "mph": "",
-      "quarterMile": "",
-      "id": 7
+      "transmission": "auto",
+      "drivetrain": "sda",
+      "power": "760",
+      "torque": "n/a",
+      "mph": "8.0",
+      "quarterMile": "11",
+      "id": 9
     }
   ],
   "videos": [
