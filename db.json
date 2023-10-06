@@ -66,7 +66,6 @@
       "quarterMile": "13.9 @103 MPH"
     },
     {
-      "engine": "",
       "transmission": "",
       "drivetrain": "",
       "power": "",
@@ -76,7 +75,7 @@
       "id": 6
     },
     {
-      "engine": "",
+      "engine": "srt",
       "transmission": "",
       "drivetrain": "",
       "power": "",
@@ -84,26 +83,6 @@
       "mph": "",
       "quarterMile": "",
       "id": 7
-    },
-    {
-      "engine": "",
-      "transmission": "",
-      "drivetrain": "",
-      "power": "",
-      "torque": "",
-      "mph": "",
-      "quarterMile": "",
-      "id": 8
-    },
-    {
-      "engine": "engine",
-      "transmission": "",
-      "drivetrain": "",
-      "power": "",
-      "torque": "",
-      "mph": "",
-      "quarterMile": "",
-      "id": 9
     }
   ],
   "videos": [

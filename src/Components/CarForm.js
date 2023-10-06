@@ -5,7 +5,16 @@ import React, { useState } from 'react'
 const CarForm = ({ count, handleForwardCount, handleBackwardCount, handlePost }) => {
 
 
+  const [carName, setCarName] = useState('')
+  const [image, setImage] = useState('')
+  const [description, setDescription] = useState('')
   const [engine, setEngine] = useState('')
+  const [transmission, setTransmission] = useState('')
+  const [drivetrain, setDrivetrain] = useState('')
+  const [power, setPower] = useState('')
+  const [torque, setTorque] = useState('')
+  const [mph, setMph] = useState('')
+  const [quarterMile, setQuarterMile] = useState('')
     // const handleNextCick = (count) => {
     //    (count = 1 ?  handleForwardCount(count) : count = 1)
     // }
