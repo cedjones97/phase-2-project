@@ -16,6 +16,10 @@ export const App = () => {
         .then(setCar)
     }, [])
 
+    const handlePost = (newCar) => {
+        setCar(newCar)
+    }
+
   return (
     <div>
         <Header />
@@ -24,7 +28,7 @@ export const App = () => {
             <Auction cars={car}/>
         </Route>
         <Route path='/auctionyourcar'>
-            <AuctionYourCar />
+            <AuctionYourCar handlePost={handlePost} />
         </Route>
         <Route exact path='/'>
             <Home />

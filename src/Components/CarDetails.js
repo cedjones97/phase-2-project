@@ -45,7 +45,7 @@ const CarDetails  = ({
       <button onClick={handleBid}>Bid</button>
       <ul>
         <p className='bid-amount'><em>Current Bid Amount:</em> ${money}</p>
-        <Timer className='timer' />
+        <Timer className='timer'/>
       </ul>
     </div>
   )
