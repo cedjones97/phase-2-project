@@ -1,8 +1,11 @@
 import Form from '../Form.css'
+import React, { useState } from 'react'
 
 
-const CarForm = ({ count, handleForwardCount, handleBackwardCount }) => {
+const CarForm = ({ count, handleForwardCount, handleBackwardCount, handlePost }) => {
 
+
+  const [engine, setEngine] = useState('')
     // const handleNextCick = (count) => {
     //    (count = 1 ?  handleForwardCount(count) : count = 1)
     // }
@@ -10,12 +13,16 @@ const CarForm = ({ count, handleForwardCount, handleBackwardCount }) => {
     // const handlePrevClick = (count) => {
     //     handleBackwardCount(count)
     // }
+    const handleEngine = (e) => {
+
+      setEngine(e.target.value)
+    }
 
       const handleSubmit = (e) => {
         e.preventDefault();
 
         const itemData = {
-          engine: '',
+          engine: engine,
           transmission: '',
           drivetrain: '',
           power: '',
@@ -26,7 +33,14 @@ const CarForm = ({ count, handleForwardCount, handleBackwardCount }) => {
 
         fetch('http://localhost:3000/carData', {
           method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(itemData),
         })
+
+        .then(res => res.json())
+        .then(newCar => console.log(newCar))
 
       }
   
@@ -35,9 +49,9 @@ const CarForm = ({ count, handleForwardCount, handleBackwardCount }) => {
     <div className='form-box'>
         <h3><em><strong>Submit This Form To Add Your Car To The Auction!</strong></em></h3>
         <br />
-        <form >
+        <form onSubmit={handleSubmit}>
             <div className='field1'>
-            <input placeholder='vehicle name..'/>
+            <input placeholder='vehicle name..' value={engine} onChange={handleEngine}/>
             <input placeholder='vehicle image..'/>
             <input placeholder='vehicle description..'/>
             <input placeholder='vehicle engine type..'/>
