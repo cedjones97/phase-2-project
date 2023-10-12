@@ -8,16 +8,16 @@ import AuctionYourCar from './AuctionYourCar'
 
 export const App = () => {
 
-    const [car, setCar] = useState([])
+    const [cars, setCars] = useState([])
 
     useEffect(() => {
         fetch('http://localhost:3000/carData')
         .then(res => res.json())
-        .then(setCar)
+        .then(setCars)
     }, [])
 
     const handlePost = (newCar) => {
-        setCar(newCar)
+        setCars(newCar)
     }
 
   return (
@@ -25,7 +25,7 @@ export const App = () => {
         <Header />
         <Switch>
         <Route path='/auction'>
-            <Auction cars={car}/>
+            <Auction cars={cars}/>
         </Route>
         <Route path='/auctionyourcar'>
             <AuctionYourCar handlePost={handlePost} />

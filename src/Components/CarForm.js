@@ -90,7 +90,10 @@ const history = useHistory();
       })
 
       .then(res => res.json())
-      .then(newCar => handlePost(newCar));
+      .then(newCar => handlePost(prevArray => [...prevArray, newCar]))
+      
+      .catch(err => alert('Your car was Not registered. Please try again.'));
+
       history.push("/auction")
 
 
